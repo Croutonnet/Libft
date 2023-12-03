@@ -6,7 +6,7 @@
 /*   By: rapelcha <rapelcha@student.42quebec.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 13:42:49 by rapelcha          #+#    #+#             */
-/*   Updated: 2023/03/21 15:21:46 by rapelcha         ###   ########.fr       */
+/*   Updated: 2023/12/03 14:54:38 by rapelcha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@ void	ft_lstadd_back(t_list **lst, t_list *new);
 void	ft_lstadd_front(t_list **lst, t_list *new);
 void	*ft_memset(void *str, int c, size_t n);
 void	*ft_xfree(void	*pointer);
+void	**ft_xxfree(void **pointer);
 void	ft_bzero(void *s, size_t n);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
 void	*ft_memmove(void *str1, const void *str2, size_t n);
@@ -69,6 +70,7 @@ int		ft_isprint(int arg);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
 int		ft_lstsize(t_list *lst);
+double	ft_atof(char *str);
 int		ft_atoi(const char *str);
 int		ft_searchstr(char *str, int c);
 char	*ft_strdup(const char *s1);

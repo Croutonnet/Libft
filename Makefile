@@ -6,7 +6,7 @@
 #    By: rapelcha <rapelcha@student.42quebec.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/18 09:23:06 by rapelcha          #+#    #+#              #
-#    Updated: 2022/12/04 15:09:29 by rapelcha         ###   ########.fr        #
+#    Updated: 2023/12/03 14:53:58 by rapelcha         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,8 @@ CFLAGS	=	-Wall -Werror -Wextra
 RM		=	rm -f
 
 # Sources are all .c files
-SRCS	=	ft_atoi.c\
+SRCS	=	ft_atof.c\
+			ft_atoi.c\
 			ft_bzero.c\
 			ft_calloc.c\
 			ft_isalnum.c\
@@ -58,6 +59,7 @@ SRCS	=	ft_atoi.c\
 			ft_realloc.c\
 			ft_searchstr.c\
 			ft_xfree.c\
+			ft_xxfree.c\
 			get_next_line.c\
 			ft_toupper.c
 
